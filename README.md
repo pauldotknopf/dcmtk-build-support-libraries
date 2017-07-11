@@ -23,7 +23,7 @@ This repository contains simple scripts (using reproducible docker images) that 
 
 TODO
 
-## Build yourself*: 
+## Build yourself: 
 
 First, prepare the docker image.
 
