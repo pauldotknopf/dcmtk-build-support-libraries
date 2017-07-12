@@ -2,3 +2,4 @@ iconv/
 openssl/
 tmp/
 deploy/
+zlib/

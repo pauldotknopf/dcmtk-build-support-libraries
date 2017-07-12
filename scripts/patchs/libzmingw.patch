@@ -1,0 +1,13 @@
+diff --git a/win32/Makefile.gcc b/win32/Makefile.gcc
+index 305be50..4da34e4 100644
+--- a/win32/Makefile.gcc
++++ b/win32/Makefile.gcc
+@@ -41,7 +41,7 @@ SHARED_MODE=0
+ #LOC = -DASMV
+ #LOC = -DZLIB_DEBUG -g
+ 
+-PREFIX =
++PREFIX = x86_64-w64-mingw32-
+ CC = $(PREFIX)gcc
+ CFLAGS = $(LOC) -O3 -Wall
+ 

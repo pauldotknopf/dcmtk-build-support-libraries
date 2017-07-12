@@ -3,3 +3,4 @@ set -e
 
 ./build-iconv.sh
 ./build-openssl.sh
+./build-zlib.sh
