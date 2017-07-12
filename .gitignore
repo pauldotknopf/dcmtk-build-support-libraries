@@ -1,2 +1,4 @@
 iconv/
+openssl/
 tmp/
+deploy/

@@ -2,3 +2,4 @@
 set -e
 
 ./build-iconv.sh
+./build-openssl.sh
