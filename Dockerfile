@@ -27,7 +27,7 @@ RUN set -x \
 
 # install build tools and windows cross compiler
 RUN set -x \
-  && apt-get install -y -q build-essential gcc g++ git cmake \
+  && apt-get install -y -q build-essential gcc g++ git cmake unzip \
   g++-mingw-w64-x86-64 gcc-mingw-w64-x86-64 \
   && mkdir /work
 

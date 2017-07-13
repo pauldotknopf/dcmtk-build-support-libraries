@@ -3,3 +3,4 @@ openssl/
 tmp/
 deploy/
 zlib/
+jpeg/
