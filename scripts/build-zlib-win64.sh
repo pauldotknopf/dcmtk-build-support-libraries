@@ -10,7 +10,7 @@ git checkout v1.2.11
 
 git apply /work/scripts/patchs/libzmingw.patch
 
-export INCLUDE_PATH=/work/zlib/win64/incude
+export INCLUDE_PATH=/work/zlib/win64/include
 export LIBRARY_PATH=/work/zlib/win64/lib
 export BINARY_PATH=/work/zlib/win64/bin
 
