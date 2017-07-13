@@ -27,29 +27,29 @@ function generate {
     cd $RUN_PATH/$LIBNAME/$ARCH && zip -r $RUN_PATH/deploy/$FILENAME.$ARCH.zip .
 }
 
-generate iconv iconv-1.15 win64
-generate iconv iconv-1.15 win32
-generate iconv iconv-1.15 debian64
+generate iconv libiconv-1.15 win64
+generate iconv libiconv-1.15 win32
+generate iconv libiconv-1.15 debian64
 
-generate jpeg jpeg-9.2.0 win64
-generate jpeg jpeg-9.2.0 win32
-generate jpeg jpeg-9.2.0 debian64
+generate jpeg libjpeg-9.2.0 win64
+generate jpeg libjpeg-9.2.0 win32
+generate jpeg libjpeg-9.2.0 debian64
 
 generate openssl openssl-1.0.2k win64
 generate openssl openssl-1.0.2k win32
 generate openssl openssl-1.0.2k debian64
 
-generate png png-1.6.30 win64
-generate png png-1.6.30 win32
-generate png png-1.6.30 debian64
+generate png libpng-1.6.30 win64
+generate png libpng-1.6.30 win32
+generate png libpng-1.6.30 debian64
 
-generate tiff tiff-3.9.7 win64
-generate tiff tiff-3.9.7 win32
-generate tiff tiff-3.9.7 debian64
+generate tiff libtiff-3.9.7 win64
+generate tiff libtiff-3.9.7 win32
+generate tiff libtiff-3.9.7 debian64
 
-generate xml xml-2.9.4 win64
-generate xml xml-2.9.4 win32
-generate xml xml-2.9.4 debian64
+generate xml libxml2-2.9.4 win64
+generate xml libxml2-2.9.4 win32
+generate xml libxml2-2.9.4 debian64
 
 generate zlib zlib-1.2.11 win64
 generate zlib zlib-1.2.11 win32
